@@ -31,8 +31,8 @@ const Header = () => {
                             <MenuRounded />
                         </IconButton>
                         <Menu id="basic-menu" anchorEl={anchorEl} open={open} onClose={handleClose} MenuListProps={{ 'aria-labelledby': 'basic-button', }}>
-                            <MenuItem><Link href='/for-sale' passHref><Button size="small">Buy Property</Button></Link></MenuItem>
-                            <MenuItem><Link href='/for-rent' passHref><Button size="small">Rent Property</Button></Link></MenuItem>
+                            <MenuItem><Link href='/search?purpose=for-sale' passHref><Button size="small">Buy Property</Button></Link></MenuItem>
+                            <MenuItem><Link href='/search?purpose=for-rent' passHref><Button size="small">Rent Property</Button></Link></MenuItem>
                             <MenuItem><Link href='/login' passHref><Button variant="contained" size="small">Register</Button></Link></MenuItem>
                             
                         </Menu>

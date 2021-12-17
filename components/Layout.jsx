@@ -1,6 +1,7 @@
 import Head from "next/head"
 import { Container } from "@mui/material"
 import { Header, Footer } from "."
+import styles from '../styles/Layout.module.scss'
 const Layout = ({ children }) => {
     return (
         <div>
